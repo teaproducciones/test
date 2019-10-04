@@ -5,12 +5,13 @@
         <script src="webgl_detector.js"></script>
         <script src="Projector.js"></script>
         <script src="CanvasRenderer.js"></script><script src="OrbitControls.js"></script>
+        <script src="stl_viewer.min.js"></script> 
     </head>
 
     <body>
         <div id="stl_cont" style="width:500px;height:500px;margin:0 auto;"><canvas width="495" height="495" style="width: 495px; height: 495px;"></canvas></div>
 
-        <script src="stl_viewer.min.js"></script>       
+              
         <script>
             var stl_viewer=new StlViewer
 
@@ -19,7 +20,7 @@
                 {
                     models:
                     [
-                        {filename:"gallardo.stl"}
+                        {filename:"prueba.stl"}
                     ]
                 }
             );
